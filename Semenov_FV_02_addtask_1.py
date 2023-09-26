@@ -15,8 +15,8 @@ at the beginning or end of the string. They will not contain numerals.
 
 import string
 
-animal = str(input("введите название животного \t"))
-dish = str(input("введите название блюда \t"))
+animal = str(input("enter the name of the animal \t"))
+dish = str(input("enter the name of the dish \t"))
 
 if (animal[0] == dish[0]) and (animal[-1] == dish[-1]):
     if (animal[0] in string.ascii_lowercase) and (
