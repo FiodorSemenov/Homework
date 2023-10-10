@@ -20,4 +20,5 @@ for i in range(1,n+1):
 print("таблица умножения")
 for i in range(1,10):
     for q in range(1,10):
-        print(i*q)
+        print(f"{i*q:4}",end='')
+    print()
